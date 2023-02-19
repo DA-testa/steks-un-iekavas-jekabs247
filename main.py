@@ -11,11 +11,14 @@ def find_mismatch(text):
     opening_brackets_stack = []
 
     for i, next in enumerate(text):
+
         if next in "([{":
+
             # Process opening bracket, write your code here
             opening_brackets_stack.append(Bracket(next, i))
 
         if next in ")]}":
+
             # Process closing bracket, write your code here
             if not opening_brackets_stack:
                 return i+1
@@ -36,7 +39,9 @@ def main():
 
     mismatch = find_mismatch(text)
     choice.upper()
+
     # Printing answer, write your code here
+
     if choice == "I":
         print(mismatch)
     else:
