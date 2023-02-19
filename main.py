@@ -32,6 +32,7 @@ def find_mismatch(text):
 
 def main():
 
+    temp = input()
     text = input()
 
     n = len(text)
@@ -42,7 +43,10 @@ def main():
     mismatch = find_mismatch(text)
 
     # Printing answer, write your code here
-    print(mismatch)
+    if temp == "I":
+        print(mismatch)
+    else:
+        print(mismatch)
 
 if __name__ == "__main__":
     main()
