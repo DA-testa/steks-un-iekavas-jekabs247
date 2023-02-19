@@ -35,10 +35,10 @@ def main():
  
     text = input()
 
-    n = len(text)
-    if n < 1 or n > 105:
-        print("Invalid input length. Length must be between 1 and 105.")
-        return
+    #n = len(text)
+    #if n < 1 or n > 105:
+     #   print("Invalid input length. Length must be between 1 and 105.")
+     #   return
 
     mismatch = find_mismatch(text)
 
