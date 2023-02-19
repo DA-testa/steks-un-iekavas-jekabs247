@@ -1,4 +1,5 @@
-# Jēkabs Kindzulis, 221RDC047, 18.gr
+# python3
+#Jēkabs Kindzulis, 221RDC047, 18.gr
 
 from collections import namedtuple
 
