@@ -33,7 +33,8 @@ def find_mismatch(text):
 def main():
 
     temp = input()
-    text = input()
+    if temp == "I":
+        text = input()
 
     n = len(text)
     if n < 1 or n > 105:
