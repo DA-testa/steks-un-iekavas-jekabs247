@@ -32,7 +32,7 @@ def find_mismatch(text):
 
 def main():
 
- 
+    choice = input()
     text = input()
 
 
@@ -42,10 +42,12 @@ def main():
      #   return
 
     mismatch = find_mismatch(text)
-
+    choice.upper()
     # Printing answer, write your code here
-
-    print(mismatch)
+    if choice == "I":
+        print(mismatch)
+    else:
+        print(mismatch)
 
 if __name__ == "__main__":
     main()
